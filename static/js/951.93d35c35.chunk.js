@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_study07_react_router=self.webpackChunkreact_study07_react_router||[]).push([[951],{951:function(t,e,r){r.r(e);var a=r(184);e.default=function(){return(0,a.jsx)("section",{children:(0,a.jsx)("img",{src:"./images/talktalk.png",alt:"#"})})}}}]);
+//# sourceMappingURL=951.93d35c35.chunk.js.map

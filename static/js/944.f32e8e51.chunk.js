@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_study07_react_router=self.webpackChunkreact_study07_react_router||[]).push([[944],{944:function(e,n,t){t.r(n);var r,c=t(168),u=t(444),a=t(184),o=u.ZP.section(r||(r=(0,c.Z)(["\n    height:660px;\n    text-indent:-9999px;\n    background-image:url(./images/home.png);\n    background-position:center center;\n    background-size:cover;\n"])));n.default=function(){return(0,a.jsx)(o,{children:"Home"})}}}]);
+//# sourceMappingURL=944.f32e8e51.chunk.js.map

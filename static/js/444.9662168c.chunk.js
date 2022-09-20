@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_study07_react_router=self.webpackChunkreact_study07_react_router||[]).push([[444],{205:function(e,t,r){r.r(t);var s=r(184);t.default=function(){return(0,s.jsx)("section",{children:(0,s.jsx)("img",{src:"./images/skill.png",alt:"#"})})}}}]);
+//# sourceMappingURL=444.9662168c.chunk.js.map

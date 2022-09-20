@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_study07_react_router=self.webpackChunkreact_study07_react_router||[]).push([[771],{771:function(t,e,r){r.r(e);var c=r(184);e.default=function(){return(0,c.jsx)("section",{children:(0,c.jsx)("img",{src:"./images/contact.png",alt:"#"})})}}}]);
+//# sourceMappingURL=771.04830311.chunk.js.map
