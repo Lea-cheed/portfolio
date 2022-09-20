@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Link, Route, Routes} from 'react-router-dom';
+import Layout from './Layout';
+import About from './pages/About';
+import Article from './pages/Article';
+import Articles from './pages/Articles';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const App = ()=>{
+  return(
+    // 라우터를 적용할 때는 가장 최상단에 BrowserRouter 컴포넌트로 감싸야 한다.
+    <BrowserRouter>
+      <Routes>
+        {/* 공통 레이아웃 컴포넌트 역할 */}
+        <Route element={<Layout />}>
+
+          {/* index는 path="/"와 동일한 의미 */}
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
+
+          {/* 중첩(서브) 라우팅 - 공통레이아웃 작성 원리 */}
+          <Route path="/articles" element={<Articles />}>
+            <Route path=":id" element={<Article />} />
+          </Route>
+
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+
+
+    </BrowserRouter>
   );
 }
 
